@@ -61,7 +61,7 @@ public class datafetch {
 			       while(cellIterator.hasNext())
 			       {
 			    	   
-			    	   XSSFCell cell= (XSSFCell) cellIterator.next();
+			    	   XSSFCell cell= (XSSFCell) cellIterator.next();//////Copying the current cell to cell variable **
 			    	   
 			    	   switch(cell.getCellType())
 			    	   
